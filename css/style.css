@@ -274,7 +274,7 @@ header {
 
 .my-services {
     background-color: var(--cly-dark);
-    background-image: url(../img/Bimg_1.JPG);
+    background-image: url(../img/Bimg_1.JPG.png);
     background-size: cover;
     background-blend-mode: multiply;
     color: var(--clr-light);
@@ -361,6 +361,12 @@ header {
      background-color: var(--clr-dark);
      color: var(clr-light);
      text-align: center;
+ }
+ 
+ .section__title--work {
+     color: var(--clr-accent);
+     font-weight: var(--fw-bold);
+     margin-bottom: 2em;
  }
  
  .section__subtitle--work {
